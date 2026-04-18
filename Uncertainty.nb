@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[    752454,      12643]
-NotebookOptionsPosition[    749692,      12590]
-NotebookOutlinePosition[    750198,      12608]
-CellTagsIndexPosition[    750155,      12605]
+NotebookDataLength[    753793,      12662]
+NotebookOptionsPosition[    751030,      12609]
+NotebookOutlinePosition[    751536,      12627]
+CellTagsIndexPosition[    751493,      12624]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -9202,11 +9202,11 @@ Cell[TextData[{
  " increments, the frequency of the wave added to the wave packet also \
 changes. Adding up a huge range of frequencies results in a very large, \
 centralized peak that spreads out very little. Adding up only a few \
-frequencies results in a small peak that spreads out a lot. A high frequency \
-uncertainty (resulting from the large number of distinct frequencies added) \
-results in low positional uncertainty (the wave packet has a definite \
-position in x). This concept is the core of uncertainty relations: basically, \
-",
+frequencies results in a small peak that spreads out a lot. A high \
+uncertainty in frequency (resulting from the large number of distinct \
+frequencies added) results in low positional uncertainty (the wave packet has \
+a small expanse in x). This concept is the core of uncertainty relations: \
+basically, ",
  StyleBox["the more certain your frequency is, the less certain the spatial \
 position is. ",
   FontWeight->"Bold"],
@@ -9214,8 +9214,9 @@ position is. ",
 }], "Text",
  CellChangeTimes->{{3.985443235807068*^9, 3.9854432501112194`*^9}, {
   3.985443288416437*^9, 3.985443543520462*^9}, {3.985443599302744*^9, 
-  3.9854436402920914`*^9}, {3.985443675082323*^9, 
-  3.9854437000994167`*^9}},ExpressionUUID->"6d8869f4-4dcb-1e47-bc73-\
+  3.9854436402920914`*^9}, {3.985443675082323*^9, 3.9854437000994167`*^9}, {
+  3.9854756158547287`*^9, 3.9854756663796387`*^9}, {3.9854760458146687`*^9, 
+  3.9854760776617584`*^9}},ExpressionUUID->"6d8869f4-4dcb-1e47-bc73-\
 d138d06c166e"]
 }, Open  ]],
 
@@ -9234,10 +9235,10 @@ double-slit experiment with an electron beam rather than with light. \
 Electrons passing through the slits diffract in a very similar way to light, \
 strongly suggesting that electrons have wavelike nature in addition to their \
 typical conceptualization as particles. Matter waves are clearly not strictly \
-the same as something like light; instead, the amplitude of a de Broglie wave \
-(as it came to be called) represented the probability that a particle is \
-going to be found there when measured. The de Broglie wavelength of any given \
-particle is given by \[Lambda]=",
+the same as something like light; instead, the square of the amplitude of a \
+de Broglie wave (as it came to be called) represented the probability that a \
+particle is going to be found there when measured. The de Broglie wavelength \
+of any given particle is given by \[Lambda]=",
  StyleBox["h/p",
   FontSlant->"Italic"],
  ", where ",
@@ -9252,29 +9253,41 @@ convenience) describes an electron. The large centralized peak indicates a \
 very high probability that the electron will be found there, while the very \
 low amplitude at x>5 indicates a very low probability that the electron will \
 be found there. Since the wavelength of the waves depends on the momentum, \
-the frequency does too. This leads to an uncertainty relation between ",
+the frequency does too. Uncertainty in frequency and position are related, as \
+already shown above. The math leads to an uncertainty relation between ",
  StyleBox["\[CapitalDelta]x",
   FontSlant->"Italic"],
  ", the uncertainty in position, and ",
- StyleBox["\[CapitalDelta]f",
+ StyleBox["\[CapitalDelta]p",
   FontSlant->"Italic"],
- ", the uncertainty in frequency. Written explicitly, ",
+ ", the uncertainty in momentum. Written explicitly, ",
  StyleBox["\[CapitalDelta]x",
   FontSlant->"Italic"],
  "*",
- StyleBox["\[CapitalDelta]f",
+ StyleBox["\[CapitalDelta]p ",
   FontSlant->"Italic"],
- "=\[HBar]/2"
+ "\[GreaterEqual] \[HBar]/2. There are many such uncertainty relations with \
+quantum mechanics, but for our purposes in modeling electron orbitals, this \
+is the most important one. ",
+ StyleBox["It is physically impossible for a particle to have both a \
+well-defined speed and a well-defined position in the same axis at the same \
+time.",
+  FontWeight->"Bold"],
+ " This is known as the Heisenberg Uncertainty Principle."
 }], "Text",
  CellChangeTimes->{{3.985443726232115*^9, 3.985443797569977*^9}, {
-  3.9854440877104645`*^9, 3.9854440999717693`*^9}, {3.985444164355133*^9, 
-  3.9854444239381943`*^9}, {3.9854445545160294`*^9, 3.985444779595913*^9}, {
-  3.9854449148656273`*^9, 3.985444956114105*^9}, {3.9854564114157467`*^9, 
-  3.9854564335645103`*^9}, {3.985456512633852*^9, 3.985456519744669*^9}, {
-  3.9854565927939224`*^9, 3.985456644488552*^9}, {3.985456679000862*^9, 
-  3.9854567234485035`*^9}, {3.9854567538071632`*^9, 3.985456776072569*^9}, {
-  3.985456831935608*^9, 
-  3.985456862251604*^9}},ExpressionUUID->"fe4633d6-a093-c940-aa72-\
+   3.9854440877104645`*^9, 3.9854440999717693`*^9}, {3.985444164355133*^9, 
+   3.9854444239381943`*^9}, {3.9854445545160294`*^9, 3.985444779595913*^9}, {
+   3.9854449148656273`*^9, 3.985444956114105*^9}, {3.9854564114157467`*^9, 
+   3.9854564335645103`*^9}, {3.985456512633852*^9, 3.985456519744669*^9}, {
+   3.9854565927939224`*^9, 3.985456644488552*^9}, {3.985456679000862*^9, 
+   3.9854567234485035`*^9}, {3.9854567538071632`*^9, 3.985456776072569*^9}, {
+   3.985456831935608*^9, 3.985456862251604*^9}, {3.985475028392193*^9, 
+   3.985475053029684*^9}, 3.98547522056168*^9, {3.9854752916202297`*^9, 
+   3.9854753297213173`*^9}, {3.985475701749113*^9, 3.985475730524193*^9}, {
+   3.985475830318426*^9, 3.985475843225706*^9}, {3.985475875025402*^9, 
+   3.9854759589496193`*^9}, {3.9854760909456196`*^9, 
+   3.9854761031831894`*^9}},ExpressionUUID->"fe4633d6-a093-c940-aa72-\
 f4f8956c7031"],
 
 Cell[CellGroupData[{
@@ -12579,10 +12592,16 @@ ms7i8vLyJPwPD3H2kA==
  CellLabel->"Out[26]=",ExpressionUUID->"d1d97306-4f6f-094f-b44d-0d527bfab320"]
 }, Open  ]],
 
-Cell["", "Text",
+Cell["\<\
+Because of positional uncertainty, the Bohr model assumption of fixed orbital \
+distances cannot be correct. While the Bohr radius is incorrect, the idea of \
+energy levels proved to be a valuable one, and in the notebook on quantum \
+numbers, the exact use of energy levels will be explored.\
+\>", "Text",
  CellChangeTimes->{{3.9854562532723866`*^9, 3.985456304310791*^9}, {
-  3.985456369934141*^9, 
-  3.985456371912155*^9}},ExpressionUUID->"46b5fde1-02ba-0244-84c2-\
+  3.985456369934141*^9, 3.985456371912155*^9}, {3.9854754955568333`*^9, 
+  3.9854755446776714`*^9}, {3.985476112151581*^9, 
+  3.985476167303404*^9}},ExpressionUUID->"46b5fde1-02ba-0244-84c2-\
 ecbec632b58b"]
 }, Open  ]]
 }, Open  ]]
@@ -12632,16 +12651,16 @@ Cell[CellGroupData[{
 Cell[344584, 5809, 714, 19, 58, "Input",ExpressionUUID->"d5a8f8cc-f62b-b94b-9757-bd20bb1db50f"],
 Cell[345301, 5830, 202367, 3364, 246, "Output",ExpressionUUID->"93d196e6-8f41-e743-a08c-6a78e0d067b4"]
 }, Open  ]],
-Cell[547683, 9197, 1072, 21, 98, "Text",ExpressionUUID->"6d8869f4-4dcb-1e47-bc73-d138d06c166e"]
+Cell[547683, 9197, 1174, 22, 98, "Text",ExpressionUUID->"6d8869f4-4dcb-1e47-bc73-d138d06c166e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[548792, 9223, 187, 3, 53, "Subsection",ExpressionUUID->"a628c466-b3cd-4a4b-99b7-90147f8df712"],
-Cell[548982, 9228, 2449, 49, 251, "Text",ExpressionUUID->"fe4633d6-a093-c940-aa72-f4f8956c7031"],
+Cell[548894, 9224, 187, 3, 53, "Subsection",ExpressionUUID->"a628c466-b3cd-4a4b-99b7-90147f8df712"],
+Cell[549084, 9229, 3286, 61, 295, "Text",ExpressionUUID->"fe4633d6-a093-c940-aa72-f4f8956c7031"],
 Cell[CellGroupData[{
-Cell[551456, 9281, 384, 9, 39, "Input",ExpressionUUID->"6be63e55-1b81-7a47-9706-c6fc44c6f220"],
-Cell[551843, 9292, 197601, 3286, 246, "Output",ExpressionUUID->"d1d97306-4f6f-094f-b44d-0d527bfab320"]
+Cell[552395, 9294, 384, 9, 39, "Input",ExpressionUUID->"6be63e55-1b81-7a47-9706-c6fc44c6f220"],
+Cell[552782, 9305, 197601, 3286, 246, "Output",ExpressionUUID->"d1d97306-4f6f-094f-b44d-0d527bfab320"]
 }, Open  ]],
-Cell[749459, 12581, 193, 4, 32, "Text",ExpressionUUID->"46b5fde1-02ba-0244-84c2-ecbec632b58b"]
+Cell[750398, 12594, 592, 10, 54, "Text",ExpressionUUID->"46b5fde1-02ba-0244-84c2-ecbec632b58b"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
